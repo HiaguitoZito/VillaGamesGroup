@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #121212; /* Solid dark background */
+    font-family: Arial, sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 40px 20px;
+    border-radius: 20px;
+  }
+  
+  .logo {
+    max-width: 200px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  
+  .store-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .store-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .coming-soon {
+    background-color: #ff0000;
+    color: white;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+  }
+  
+  .store-badge img {
+    width: 160px;
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  footer a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
